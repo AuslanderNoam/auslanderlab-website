@@ -132,7 +132,7 @@ ${ticker()}
       </h2>
     </div>
   </div>
-</section>
+</section>`;
 const research=()=>`<section class="shell section inner">${section('Research','Our lab develops computational frameworks to understand microbes, viruses, and cancer through genomic data, molecular evolution, and machine learning.')}<div class="research-grid">${researchCards(D.research)}</div></section>`;
 
 const pubs=()=>`<section class="shell section inner">${section('Publications','Selected and collaborative publications from the Auslander Lab, organized by year.')}<div class="filter-row"><label for="pub-search">Search publications</label><input id="pub-search" placeholder="Search by title, journal, or author…" autocomplete="off"><span id="pub-count"></span></div><div id="pub-results">${pubList(publicationYears())}</div><p class="archive-note">Publication metadata was transcribed from the original lab website. For complete author lists and verified article links, consult ${a('https://www.auslanderlab.com/publications','the original publications page')}.</p></section>`;
