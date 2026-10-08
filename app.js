@@ -149,7 +149,62 @@ const research=()=>`<section class="shell section inner">${section('Research','O
 
 const pubs=()=>`<section class="shell section inner">${section('Publications','Selected and collaborative publications from the Auslander Lab, organized by year.')}<div class="filter-row"><label for="pub-search">Search publications</label><input id="pub-search" placeholder="Search by title, journal, or author…" autocomplete="off"><span id="pub-count"></span></div><div id="pub-results">${pubList(publicationYears())}</div><p class="archive-note">Publication metadata was transcribed from the original lab website. For complete author lists and verified article links, consult ${a('https://www.auslanderlab.com/publications','the original publications page')}.</p></section>`;
 
-const software=()=>`<section class="shell section inner">${section('Software & resources','Open computational methods developed by the lab for viral discovery, functional metagenomics, and complex genomic signals.')}<div class="software-grid">${D.software.map((s,i)=>`<article class="software-card"><div class="software-top"><span class="software-glyph">${['⌘','≋','◈','◇'][i]}</span><span class="meta">${esc(s[3])}</span></div><h2>${esc(s[0])}</h2><p>${esc(s[1])}</p>${a(s[2],'Explore resource ↗','text-link')}</article>`).join('')}</div></section>`;
+
+const software = () => {
+  const softwareImages = {
+    "Seeker": "seeker.png",
+    "CLICnet": "clicnet.png",
+    "viRNAtrap": "virnatrap.png",
+    "ERVmancer": "ervmancer.png"
+  };
+
+  const getSoftwareImage = name => {
+    const key = Object.keys(softwareImages).find(
+      k => name.toLowerCase().includes(k.toLowerCase())
+    );
+
+    return key ? softwareImages[key] : "for_git.jpg";
+  };
+
+  return `
+    <section class="shell section inner">
+      ${section(
+        'Software & resources',
+        'Open computational methods developed by the lab for viral discovery, functional metagenomics, and complex genomic signals.'
+      )}
+
+      <div class="software-grid">
+        ${D.software.map((s, i) => `
+          <article class="software-card">
+
+            <img
+              src="${getSoftwareImage(s[0])}"
+              alt="${esc(s[0])}"
+              loading="lazy"
+              style="
+                width: 100%;
+                height: 180px;
+                object-fit: contain;
+                display: block;
+                margin-bottom: 18px;
+                border-radius: 8px;
+              "
+            >
+
+            <div class="software-top">
+              <span class="meta">${esc(s[3])}</span>
+            </div>
+
+            <h2>${esc(s[0])}</h2>
+            <p>${esc(s[1])}</p>
+            ${a(s[2], 'Explore resource ↗', 'text-link')}
+
+          </article>
+        `).join('')}
+      </div>
+    </section>
+  `;
+};
 
 const team = () => {
   const current = [
