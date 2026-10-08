@@ -205,9 +205,12 @@ ${(() => {
         </div>
       </div>
 
-      <div class="software-grid">
-        ${current.map(profile).join('')}
-      </div>
+      <div class="software-grid" style="
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+">
+  ${alumni.map(alumnus).join('')}
+</div>
 
       <div class="split-head" style="margin-top:5rem">
         <div>
