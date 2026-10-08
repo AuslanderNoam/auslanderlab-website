@@ -15,7 +15,187 @@ const home=()=>`<section class="hero"><div class="shell hero-grid"><div class="h
 const research=()=>`<section class="shell section inner">${section('Research','Our lab develops computational frameworks to understand microbes, viruses, and cancer through genomic data, molecular evolution, and machine learning.')}<div class="research-grid">${researchCards(D.research)}</div></section>`;
 const pubs=()=>`<section class="shell section inner">${section('Publications','Selected and collaborative publications from the Auslander Lab, organized by year.')}<div class="filter-row"><label for="pub-search">Search publications</label><input id="pub-search" placeholder="Search by title, journal, or author…" autocomplete="off"><span id="pub-count"></span></div><div id="pub-results">${pubList(publicationYears())}</div><p class="archive-note">Publication metadata was transcribed from the original lab website. For complete author lists and verified article links, consult ${a('https://www.auslanderlab.com/publications','the original publications page')}.</p></section>`;
 const software=()=>`<section class="shell section inner">${section('Software & resources','Open computational methods developed by the lab for viral discovery, functional metagenomics, and complex genomic signals.')}<div class="software-grid">${D.software.map((s,i)=>`<article class="software-card"><div class="software-top"><span class="software-glyph">${['⌘','≋','◈','◇'][i]}</span><span class="meta">${esc(s[3])}</span></div><h2>${esc(s[0])}</h2><p>${esc(s[1])}</p>${a(s[2],'Explore resource ↗','text-link')}</article>`).join('')}</div></section>`;
-const team=()=>`<section class="shell section inner">${section('People','A collaborative research group working across computational biology, genomics, microbiology, and cancer.')}<div class="person-lead"><div class="avatar">NA</div><div>${label('PRINCIPAL INVESTIGATOR')}<h2>Noam Auslander, PhD</h2><p>Assistant Professor, The Wistar Institute<br>Secondary appointment, Department of Cancer Biology, Perelman School of Medicine, University of Pennsylvania</p></div></div><div class="team-note"><h2>Lab members & alumni</h2><p>To preserve accuracy, individual biographies and photographs have not been reconstructed without the source material. Add approved photos, roles, and profile details here when available.</p>${a('https://www.auslanderlab.com','Visit the current lab website ↗','text-link')}</div></section>`;
+
+const team = () => {
+  const current = [
+    {
+      name: "Noam Auslander",
+      position: "Principal Investigator",
+      bio: "Earned a B.S. in Computer Science and Biology from Tel Aviv University, a Ph.D. in Computer Science from the University of Maryland with an NCI fellowship, completed postdoctoral training in Evolutionary Genomics Research at NCBI, and joined The Wistar Institute as an Assistant Professor in 2021.",
+      education: [
+        "Ph.D. Computer Science, University of Maryland, 2018",
+        "B.Sc. Computer Science & Biology, Tel Aviv University, 2014"
+      ],
+      interests: [
+        "Computational Genomics",
+        "Machine Learning for Biology",
+        "Host–Microbe Interactions in Disease",
+        "Microbiome and Immunotherapy",
+        "Molecular Evolution",
+        "Skiing, running, and trying new sports"
+      ],
+      email: "nauslander@wistar.org"
+    },
+    {
+      name: "Anastasia Lucas",
+      position: "Bioinformatics Research Analyst (Postdoctoral Level)",
+      subtitle: "Formerly PhD Student",
+      education: [
+        "Ph.D. Genomics and Computational Biology, University of Pennsylvania, 2026",
+        "B.S. Biostatistics, Pennsylvania State University, 2015"
+      ],
+      interests: [
+        "Bioinformatics methods development",
+        "Disease risk and drug response prediction"
+      ],
+      email: "alucas@wistar.org"
+    },
+    {
+      name: "Julia Malnak",
+      position: "Graduate Student",
+      subtitle: "Genomics and Computational Biology",
+      bio: "I study structure-based approaches for comparing viruses and associating them with disease phenotypes. Outside the lab, I enjoy cooking, spending time with my cat Ember, reading Brandon Sanderson novels, and keeping up with The New York Times.",
+      education: [
+        "B.S. Computational Biology, University of Pittsburgh, 2023"
+      ],
+      interests: [
+        "Virus–Host Interactions",
+        "Viral Evolution",
+        "Protein Language Models"
+      ],
+      email: "julia.malnak@pennmedicine.upenn.edu"
+    },
+    {
+      name: "Bryant Duong",
+      position: "Graduate Student",
+      subtitle: "Genomics & Computational Biology · Former Software Developer",
+      education: [
+        "Master of Computer and Information Technology, University of Pennsylvania, 2024",
+        "MBA, University of California, Davis, 2022",
+        "B.A. Cognitive Science, University of California, Berkeley, 2018"
+      ]
+    },
+    {
+      name: "Pearl Zhou",
+      position: "Lab Technician (Programmer)"
+    }
+  ];
+
+  const alumni = [
+    {
+      name: "Andrew Patterson",
+      position: "Visiting Scientist / PhD Student",
+      years: "2021–2026",
+      next: "Scientist, Data Analysis and Bioinformatics, Delcath Systems, Inc."
+    },
+    {
+      name: "Abdurrahman Elbasir",
+      position: "Postdoctoral Fellow"
+    },
+    {
+      name: "Konstantinos Tsingas",
+      position: "MS Researcher",
+      years: "2022–2023",
+      next: "PhD Student, Graduate Group in Biostatistics, University of Pennsylvania"
+    },
+    {
+      name: "McKenna Reale",
+      position: "Software Engineer",
+      years: "2023–2026"
+    },
+    {
+      name: "Timothy Kossenkov",
+      position: "Summer Research Assistant",
+      years: "2025",
+      next: "Undergraduate Student, Computer Science, University of Washington"
+    },
+    {
+      name: "Daniel Schaffer",
+      position: "Undergraduate Researcher",
+      years: "2022–2023",
+      next: "PhD Student, Computational and Systems Biology, Massachusetts Institute of Technology"
+    }
+  ];
+
+  const list = items =>
+    `<ul>${items.map(x => `<li>${esc(x)}</li>`).join('')}</ul>`;
+
+  const profile = p => `
+    <article class="software-card">
+      <div class="software-top">
+        <span class="software-glyph">
+          ${esc(p.name.split(' ').map(x => x[0]).join(''))}
+        </span>
+        <span class="meta">${esc(p.position)}</span>
+      </div>
+
+      <h2>${esc(p.name)}</h2>
+      ${p.subtitle ? `<p class="meta">${esc(p.subtitle)}</p>` : ''}
+      ${p.bio ? `<p>${esc(p.bio)}</p>` : ''}
+
+      <details>
+        <summary>View full profile ↓</summary>
+
+        ${p.education ? `
+          <h3>🎓 Education</h3>
+          ${list(p.education)}
+        ` : ''}
+
+        ${p.interests ? `
+          <h3>🔍 Interests</h3>
+          ${list(p.interests)}
+        ` : ''}
+
+        ${p.email ? `
+          <h3>📧 Contact</h3>
+          <p><a href="mailto:${esc(p.email)}">${esc(p.email)}</a></p>
+        ` : ''}
+      </details>
+    </article>
+  `;
+
+  const alumnus = p => `
+    <article class="software-card">
+      <h2>${esc(p.name)}</h2>
+      <p><strong>${esc(p.position)}</strong></p>
+      ${p.years ? `<p class="meta">${esc(p.years)}</p>` : ''}
+      ${p.next ? `
+        <p><strong>Current position:</strong><br>${esc(p.next)}</p>
+      ` : ''}
+    </article>
+  `;
+
+  return `
+    <section class="shell section inner">
+      ${section(
+        'People',
+        'Meet the researchers developing computational approaches to understand complex biological systems.'
+      )}
+
+      <div class="split-head">
+        <div>
+          ${label('OUR TEAM')}
+          <h2>Current Members</h2>
+        </div>
+      </div>
+
+      <div class="software-grid">
+        ${current.map(profile).join('')}
+      </div>
+
+      <div class="split-head" style="margin-top:5rem">
+        <div>
+          ${label('LAB ALUMNI')}
+          <h2>Past Members</h2>
+        </div>
+      </div>
+
+      <div class="software-grid">
+        ${alumni.map(alumnus).join('')}
+      </div>
+    </section>
+  `;
+};
 const news=()=>`<section class="shell section inner">${section('Lab news','Publications, awards, conference presentations, funding, and milestones from our research community.')}<div class="news-controls"><button class="chip active" data-news="All">All updates</button>${['Publication','Grant','Conference','Lab milestone','Training','Award'].map(x=>`<button class="chip" data-news="${x}">${x}</button>`).join('')}</div><div id="news-results" class="news-list">${newsCards(D.news)}</div></section>`;
 const contact=()=>`<section class="shell section inner">${section('Contact','Find the Auslander Lab at The Wistar Institute in Philadelphia.')}<div class="contact-grid"><div class="contact-card">${label('INSTITUTION')}<h2>The Wistar Institute</h2><p>Molecular and Cellular Oncogenesis Program<br>Ellen and Ronald Caplan Cancer Center<br>3601 Spruce Street<br>Philadelphia, PA 19104</p>${a('https://www.wistar.org','Visit Wistar ↗','text-link')}</div><div class="contact-card">${label('COLLABORATE')}<h2>Research connections</h2><p>We work at the interface of computation and experimental biology. For current contact details, please refer to our institutional profile or original lab website.</p>${a('https://www.auslanderlab.com','Original lab website ↗','text-link')}</div></div></section>`;
 const pages={home,research,publications:pubs,software,team,news,contact};
