@@ -123,9 +123,35 @@ const team = () => {
   const profile = p => `
     <article class="software-card">
       <div class="software-top">
-        <span class="software-glyph">
-          ${esc(p.name.split(' ').map(x => x[0]).join(''))}
-        </span>
+        
+${(() => {
+  const photos = {
+    "Noam Auslander": "noam.jpeg",
+    "Anastasia Lucas": "Anastasia.png",
+    "Julia Malnak": "Julia.jpeg",
+    "Bryant Duong": "Bryant.png"
+  };
+
+  const photo = photos[p.name];
+
+  return photo
+    ? `<img
+         src="${photo}"
+         alt="${esc(p.name)}"
+         style="
+           width: 110px;
+           height: 110px;
+           object-fit: cover;
+           object-position: center;
+           border-radius: 8px;
+           display: block;
+         "
+       >`
+    : `<span class="software-glyph">
+         ${esc(p.name.split(' ').map(x => x[0]).join(''))}
+       </span>`;
+})()}
+
         <span class="meta">${esc(p.position)}</span>
       </div>
 
