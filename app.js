@@ -91,7 +91,6 @@ const home=()=>`
     </div>
     <div class="hero-art">
       <img src="logo.png" alt="Auslander Lab logo" style="width:100%;height:100%;object-fit:contain;display:block;">
-      <div class="art-caption">PATTERNS IN COMPLEX BIOLOGY <span>↗</span></div>
     </div>
   </div>
 </section>
