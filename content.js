@@ -30,14 +30,7 @@ window.LAB_DATA = {
     ]
   ],
   "news": [
-    [
-      "Oct 2026",
-      "Publication",
-      "Ten simple rules for responsible use of AI and LLMs in computational biology",
-      "Our manuscript has been provisionally accepted by PLOS Computational Biology.",
-      "\ud83e\udde0",
-      ""
-    ],
+  
     [
       "Sep 2026",
       "Publication",
