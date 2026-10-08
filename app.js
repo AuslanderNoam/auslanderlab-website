@@ -123,19 +123,16 @@ ${ticker()}
   </div>
 </section>
 
-<section class="closing">
-  <div class="shell closing-grid">
-    <div>
-      ${label('OPEN SCIENCE')}
-      <h2>Methods designed to make discoveries possible.</h2>
-    </div>
-    <div>
-      <p>Explore the computational tools and open research resources developed by our team.</p>
-      ${a('#software','Explore software ↗','btn light')}
+<section class="closing" style="padding:24px 0;">
+  <div class="shell">
+    <div style="text-align:center;">
+      ${label('OUR SUPPORT')}
+      <h2 style="font-size:1.3rem;line-height:1.4;margin:8px 0 0;">
+        Our work has been made possible by the generous support of:
+      </h2>
     </div>
   </div>
-</section>`;
-
+</section>
 const research=()=>`<section class="shell section inner">${section('Research','Our lab develops computational frameworks to understand microbes, viruses, and cancer through genomic data, molecular evolution, and machine learning.')}<div class="research-grid">${researchCards(D.research)}</div></section>`;
 
 const pubs=()=>`<section class="shell section inner">${section('Publications','Selected and collaborative publications from the Auslander Lab, organized by year.')}<div class="filter-row"><label for="pub-search">Search publications</label><input id="pub-search" placeholder="Search by title, journal, or author…" autocomplete="off"><span id="pub-count"></span></div><div id="pub-results">${pubList(publicationYears())}</div><p class="archive-note">Publication metadata was transcribed from the original lab website. For complete author lists and verified article links, consult ${a('https://www.auslanderlab.com/publications','the original publications page')}.</p></section>`;
