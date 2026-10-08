@@ -31,7 +31,11 @@ const researchCards = (items) => {
   };
 
   return items.map(r => {
-    const image = researchImages[r[2]];
+    const image = Object.entries(researchImages).find(
+  ([title]) =>
+    title.toLowerCase().trim() ===
+    String(r[2]).toLowerCase().trim()
+)?.[1];
 
     return `
       <article class="research-card">
