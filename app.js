@@ -181,7 +181,7 @@ ${(() => {
   `;
 
   const alumnus = p => `
-    <article class="software-card">
+  <article class="software-card" style="padding:16px;font-size:0.85rem;">
       <h2>${esc(p.name)}</h2>
       <p><strong>${esc(p.position)}</strong></p>
       ${p.years ? `<p class="meta">${esc(p.years)}</p>` : ''}
