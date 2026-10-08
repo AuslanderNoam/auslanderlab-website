@@ -122,16 +122,7 @@ ${ticker()}
     </div>
   </div>
 </section>
-<section class="shell section">
-  <div class="split-head">
-    <div>
-      ${label('LAB UPDATES')}
-      <h2>From the lab</h2>
-    </div>
-    ${a('#news','All lab news ↗','text-link')}
-  </div>
-  <div class="news-grid">${newsCards(D.news.slice(0,3))}</div>
-</section>
+
 <section class="closing">
   <div class="shell closing-grid">
     <div>
