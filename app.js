@@ -18,16 +18,16 @@ const newsCards=(items)=>items.map(n=>`<article class="news-card"><div class="ne
 const researchCards = (items) => {
   const researchImages = {
     "Better Characterization of Pathogenic Microbes in Human Diseased Tissues":
-      "Better Characterization of Pathogenic Microbes in Human Diseased Tissues.png",
+      "Better Characterization of Pathogenic Microbes in Human Diseased Tissues.jpg",
 
     "Biologically Informed Classifiers of Cancer Treatment Responses":
-      "Biologically Informed Classifiers of Cancer Treatment Responses.png",
+      "Biologically Informed Classifiers of Cancer Treatment Responses.jpg",
 
     "Detection of Pathogenic or Immunogenic Viral Sequences":
-      "Detection of Pathogenic or Immunogenic Viral Sequences.png",
+      "Detection of Pathogenic or Immunogenic Viral Sequences.jpg",
 
     "Quantification of Gut Microbial Genes and Development of Fecal Biomarkers":
-      "Quantification of Gut Microbial Genes and Development of Fecal Biomarkers.png"
+      "Quantification of Gut Microbial Genes and Development of Fecal Biomarkers.jpg"
   };
 
   return items.map(r => {
