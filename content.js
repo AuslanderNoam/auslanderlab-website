@@ -51,7 +51,7 @@ window.LAB_DATA = {
       "Publication",
       "New study in Cell Reports introduces melPDomiX",
       "Our collaborative study introduces melPDomiX, a multi-omics resource for mapping functional alterations in melanoma.",
-      "\ud83e\uddec",
+      "\ud83d\udce2",
       "https://www.auslanderlab.com/publications"
     ],
     [
@@ -59,7 +59,7 @@ window.LAB_DATA = {
       "Publication",
       "New publication in Molecular Biology and Evolution!",
       "Our study uses predicted protein structures to uncover viral protein acquisition events and human-specific protein folds.",
-      "\ud83e\uddec",
+      "\ud83e\udda0",
       "https://www.auslanderlab.com/publications"
     ],
     [
