@@ -352,6 +352,7 @@ const team = () => {
         ${p.bio ? `<p>${esc(p.bio)}</p>` : ''}
 
         ${(p.education || p.interests || p.email) ? `
+          <div style="height: 16px;"></div>
           <details>
             <summary>View full profile ↓</summary>
 
