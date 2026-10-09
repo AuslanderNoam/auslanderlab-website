@@ -54,3 +54,19 @@ body {
 .intro h2 em {
   font-weight: inherit;
 }
+
+.footer strong,
+.footer p {
+  font-family: 'Source Code Pro', monospace !important;
+}
+
+.footer strong {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.footer p {
+  font-weight: 400;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
