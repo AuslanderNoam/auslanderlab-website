@@ -136,7 +136,7 @@ window.LAB_DATA = {
       [
         "Uncovering viral protein acquisition events and human-specific folds with pairwise comparisons of predicted protein structures",
         "Molecular Biology and Evolution",
-        "Malnak JC, Montermoso S, Bushman FD, Auslander N",
+        "Malnak JC, Montermoso S, Bushman FD*, Auslander N*",
         "https://pubmed.ncbi.nlm.nih.gov/42041085/"
       ],
       [
