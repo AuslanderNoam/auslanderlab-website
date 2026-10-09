@@ -212,7 +212,7 @@ const team = () => {
     {
       name: "Noam Auslander",
       position: "PHD",
-      subtitle"Principal Investigator",
+      subtitle: "Principal Investigator",
       bio: "Earned a B.S. in Computer Science and Biology from Tel Aviv University, a Ph.D. in Computer Science from the University of Maryland with an NCI fellowship, completed postdoctoral training in Evolutionary Genomics Research at NCBI, and joined The Wistar Institute as an Assistant Professor in 2021.",
       education: [
         "Ph.D. Computer Science, University of Maryland, 2018",
