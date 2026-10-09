@@ -70,18 +70,3 @@ body {
   font-size: 0.85rem;
   line-height: 1.6;
 }
-
-/* AUSLANDER LAB — +0.1% */
-.header .brand > span {
-  font-size: 105.1%;
-}
-
-/* COMPUTATIONAL GENOMICS | CANCER | MICROBIOME — +0.03% */
-.header .brand small {
-  font-size: 110.03%;
-}
-
-/* HOME, RESEARCH, PUBLICATIONS, etc. — +0.1% */
-.header nav a {
-  font-size: 105.1%;
-}
