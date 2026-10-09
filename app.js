@@ -47,8 +47,10 @@ const researchCards = (items) => {
                style="
                  width: 100%;
                  height: 220px;
-                 object-fit: cover;
-                 display: block;
+                object-fit: contain;
+                object-position: center;
+                display: block;
+                background: #ffffff;
                "
              >`
           : visual(r[4])
