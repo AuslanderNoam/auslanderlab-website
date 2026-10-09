@@ -269,9 +269,19 @@ const team = () => {
     },
     {
       name: "Pearl Zhou",
-      position: "BS",
-      subtitle: "Lab Technician (Programmer)",
-
+      position: "BA",
+      subtitle: "Lab Technician (Programmer); Master's Student, Computer and Information Science",
+      education: [
+        "A.S. Computer Science Applications and Development, College of San Mateo, 2025",
+        "B.A. Molecular and Cell Biology, University of California, Berkeley, 2022"
+      ],
+      interests: [
+        "Molecular mechanisms of disease",
+        "Biological databases",
+        "Functional annotation of proteins",
+        "Host-microbe interactions"
+      ],
+      email: "pzhou@wistar.org"
     }
   ];
 
@@ -319,7 +329,8 @@ const team = () => {
       "Noam Auslander": "noam.jpeg",
       "Anastasia Lucas": "Anastasia.png",
       "Julia Malnak": "Julia.jpeg",
-      "Bryant Duong": "Bryant.png"
+      "Bryant Duong": "Bryant.png",
+      "Pearl Zhou": "pearl.png"
     };
 
     const photo = photos[p.name];
