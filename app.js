@@ -84,7 +84,7 @@ const home=()=>`
   <div class="shell hero-grid">
     <div class="hero-copy">
       ${label('THE WISTAR INSTITUTE · PHILADELPHIA')}
-      <h1>Decoding<i>hidden biology</i>from genomes to disease.</h1>
+      <h1>Decoding<i> hidden biology</i> from genomes to disease.</h1>
       <p>We develop computational methods that integrate genomics, molecular evolution, and machine learning to uncover how infectious agents interact with host processes to drive disease.</p>
       <div class="actions">
         ${a('#research','Explore our research <span>↗</span>','btn primary')}
