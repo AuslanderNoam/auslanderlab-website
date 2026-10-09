@@ -44,14 +44,15 @@ const researchCards = (items) => {
                src="${encodeURI(image)}"
                alt="${esc(r[2])}"
                loading="lazy"
-               style="
-                 width: 100%;
-                 height: 220px;
-                object-fit: contain;
-                object-position: center;
-                display: block;
-                background: #ffffff;
-               "
+               
+style="
+  width: 100%;
+  height: 260px;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  background: white;
+"
              >`
           : visual(r[4])
         }
