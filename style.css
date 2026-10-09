@@ -42,3 +42,15 @@ body {
   object-position: center !important;
   background: white !important;
 }
+.intro h2,
+.intro h2 em {
+  font-family: 'Source Code Pro', monospace !important;
+}
+
+.intro h2 {
+  font-weight: 600;
+}
+
+.intro h2 em {
+  font-weight: inherit;
+}
