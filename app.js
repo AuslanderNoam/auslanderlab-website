@@ -259,12 +259,22 @@ const team = () => {
     {
       name: "Bryant Duong",
       position: "MS, MBA",
-      subtitle: "Graduate Student, Genomics & Computational Biology, Former Software Developer",
+      subtitle: "Graduate Student, Genomics & Computational Biology; Formerly Software Developer",
       education: [
-        "Master of Computer and Information Technology, University of Pennsylvania, 2024",
+        "Master's of Computer and Information Technology, University of Pennsylvania, 2024",
         "MBA, University of California, Davis, 2022",
         "B.A. Cognitive Science, University of California, Berkeley, 2018"
-      ]
+      ],
+      interests: [
+        "Agentic AI-driven Discovery",
+        "Multi-omics Integration",
+        "Metabolomics"
+      ],
+      website: [
+          { label: "Personal Site", url: "bryantduong.github.io"},
+          { label: "LinkedIn", url: "https://www.linkedin.com/in/bryantduong" }
+      ],
+      email: "bryant.duong@pennmedicine.upenn.edu"
     },
     {
       name: "Pearl Zhou",
@@ -361,7 +371,7 @@ const team = () => {
         ${p.subtitle ? `<p class="meta">${esc(p.subtitle)}</p>` : ''}
         ${p.bio ? `<p>${esc(p.bio)}</p>` : ''}
 
-        ${(p.education || p.interests || p.email) ? `
+        ${(p.education || p.interests || p.email || p.website) ? `
           <div style="height: 16px;"></div>
           <details>
             <summary>View full profile ↓</summary>
@@ -378,7 +388,9 @@ const team = () => {
 
             ${p.email ? `
               <h3>📧 Contact</h3>
-              <p><a href="mailto:${esc(p.email)}">${esc(p.email)}</a></p>
+              <p style="margin:0;line-height:1.8;">
+                <a href="mailto:${esc(p.email)}">${esc(p.email)}</a>${p.website ? [].concat(p.website).map(w => `<br>${a(w.url || w, esc(w.label || 'Website') + ' ↗')}`).join('') : ''}
+              </p>
             ` : ''}
           </details>
         ` : ''}
