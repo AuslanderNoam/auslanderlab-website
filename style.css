@@ -8,3 +8,15 @@
 body {
   font-family: 'Source Code Pro', monospace;
 }
+.hero-copy h1 {
+  font-family: 'Source Code Pro', monospace !important;
+  font-size: clamp(2rem, 3.2vw, 3.4rem) !important;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+}
+
+.hero-copy h1 i {
+  font-family: inherit;
+  font-weight: inherit;
+}
