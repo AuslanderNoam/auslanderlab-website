@@ -383,3 +383,82 @@ window.LAB_DATA = {
     ]
   ]
 };
+
+/* Direct links to publications */
+const publicationLinks = {
+  "2026": [
+    "https://link.springer.com/article/10.1186/s13059-026-04287-5",
+    "https://pubmed.ncbi.nlm.nih.gov/42234561/",
+    "https://pubmed.ncbi.nlm.nih.gov/42041085/",
+    "https://pubmed.ncbi.nlm.nih.gov/41776501/",
+    "https://pubmed.ncbi.nlm.nih.gov/41193244/"
+  ],
+  "2025": [
+    "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013470",
+    "https://pubmed.ncbi.nlm.nih.gov/40923906/"
+  ],
+  "2024": [
+    "https://pubmed.ncbi.nlm.nih.gov/39213189/",
+    "https://pubmed.ncbi.nlm.nih.gov/38806670/"
+  ],
+  "2023": [
+    "https://www.nature.com/articles/s43705-023-00338-1",
+    "https://pubmed.ncbi.nlm.nih.gov/36774364/",
+    "https://pubmed.ncbi.nlm.nih.gov/37046619/",
+    "https://pubmed.ncbi.nlm.nih.gov/37140445/"
+  ],
+  "2022": [
+    "https://pubmed.ncbi.nlm.nih.gov/36123351/",
+    "https://pubmed.ncbi.nlm.nih.gov/36083892/",
+    "https://www.nature.com/articles/s41416-022-01842-2"
+  ],
+  "2021": [
+    "https://academic.oup.com/narcancer/article/3/2/zcab017/6276974",
+    "https://link.springer.com/article/10.1186/s13073-021-00905-y",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8000113/"
+  ],
+  "2020": [
+    "https://www.embopress.org/doi/full/10.15252/msb.20209701",
+    "https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-020-00919-9",
+    "https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkaa856/5921300",
+    "https://cancerres.aacrjournals.org/content/early/2020/07/23/0008-5472.CAN-19-1184",
+    "https://www.pnas.org/content/117/26/15193",
+    "https://clincancerres.aacrjournals.org/content/early/2020/04/04/1078-0432.CCR-19-1984",
+    "https://www.nature.com/articles/s41467-020-15094-2"
+  ],
+  "2019": [
+    "https://www.nature.com/articles/s41598-019-52578-8",
+    "https://f1000research.com/articles/8-1000",
+    "https://www.pnas.org/content/116/19/9501.short",
+    "https://journals.sagepub.com/doi/full/10.1177/1176935119835544"
+  ],
+  "2018": [
+    "https://pubmed.ncbi.nlm.nih.gov/30127394/",
+    "https://pubmed.ncbi.nlm.nih.gov/30100185/",
+    "https://pubmed.ncbi.nlm.nih.gov/29959327/"
+  ],
+  "2017": [
+    "https://pubmed.ncbi.nlm.nih.gov/29196508/",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5644959/",
+    "https://pubmed.ncbi.nlm.nih.gov/28811361/"
+  ],
+  "2016": [
+    "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005125",
+    "https://www.nature.com/articles/srep29662"
+  ]
+};
+
+Object.entries(publicationLinks).forEach(([year, links]) => {
+  const papers = window.LAB_DATA.publications[year];
+
+  if (!papers || papers.length !== links.length) {
+    console.warn("Publication count mismatch:", year);
+    return;
+  }
+
+  papers.forEach((paper, index) => {
+    paper[3] = links[index];
+  });
+});
+
+
