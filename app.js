@@ -2,9 +2,7 @@
 const D=window.LAB_DATA, main=document.getElementById('main');
 
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const pubmedLink = (title) =>
-  'https://pubmed.ncbi.nlm.nih.gov/?term=' +
-  encodeURIComponent('"' + title + '"[Title]');
+
 
 const a=(url,text,cls='')=>`<a class="${cls}" href="${esc(url)}" ${url.startsWith('http')?'target="_blank" rel="noopener noreferrer"':''}>${text}</a>`;
 
