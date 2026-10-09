@@ -47,6 +47,22 @@ window.LAB_DATA = {
       "https://www.auslanderlab.com/publications"
     ],
     [
+      "June 2026",
+      "Publication",
+      "New study in Cell Reports introduces melPDomiX",
+      "Our collaborative study introduces melPDomiX, a multi-omics resource for mapping functional alterations in melanoma.",
+      "\ud83e\uddec",
+      "https://www.auslanderlab.com/publications"
+    ],
+    [
+      "May 2026",
+      "Publication",
+      "New publication in Molecular Biology and Evolution!",
+      "Our study uses predicted protein structures to uncover viral protein acquisition events and human-specific protein folds.",
+      "\ud83e\uddec",
+      "https://www.auslanderlab.com/publications"
+    ],
+    [
       "Mar 2026",
       "Lab milestone",
       "Anastasia successfully defends her PhD dissertation",
