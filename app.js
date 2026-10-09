@@ -246,7 +246,6 @@ const team = () => {
       name: "Julia Malnak",
       position: "BS",
       subtitle: "Graduate Student, Genomics and Computational Biology",
-      bio: "I study structure-based approaches for comparing viruses and associating them with disease phenotypes. Outside the lab, I enjoy cooking, spending time with my cat Ember, reading Brandon Sanderson novels, and keeping up with The New York Times.",
       education: [
         "B.S. Computational Biology, University of Pittsburgh, 2023"
       ],
