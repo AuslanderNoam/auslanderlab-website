@@ -311,48 +311,48 @@ window.LAB_DATA = {
       [
         "Urea cycle dysregulation in cancer results in a pyrimidine rich mutation bias associated with enhanced response to immune checkpoint therapies",
         "Cell",
-        "Lee JS et al.",
-        "https://www.auslanderlab.com/publications"
+        "Lee JS, Adler L, Karathia H, Carmel N, Rabinovich S, Auslander N, Keshet R, Stettner N, Silberman A, Agemy L, Helbling D, Eilam R, Sun Q, Brandis A, Malitsky S, Itkin M, Weiss H, Pinto S, Kalaora S, Levy R, Barnea E, Admon A,  Dimmock D, Stern Ginossar N, Scherz A, Nagamani SCS, Unda M, Elhasid R, Carracedo A, Samuels Y, Hannenhalli S, Ruppin E*, Erez A.",
+        "https://www.ncbi.nlm.nih.gov/pubmed/30100185"
       ],
       [
         "Harnessing synthetic lethality to predict the response to cancer treatment",
         "Nature Communications",
-        "Lee JS et al.",
-        "https://www.auslanderlab.com/publications"
+        "Lee JS, Das A, Jerby-Arnon L, Arafeh R, Auslander N, Davidson M, McGarry L, James D, Amzallag A, Park SG, Cheng K, Robinson W, Atias D, Stossel C, Buzhor E, Stein G, Waterfall JJ, Meltzer PS, Golan T, Hannenhalli S, Gottlieb E, Benes CH, Samuels Y, Shanks E, Ruppin E*.",
+        "https://www.ncbi.nlm.nih.gov/pubmed/29959327"
       ]
     ],
     "2017": [
       [
         "An integrated computational and experimental study uncovers FUT9 as a metabolic driver of colorectal cancer",
         "Molecular Systems Biology",
-        "Auslander N et al.",
-        "https://www.auslanderlab.com/publications"
+        "Auslander N, Cunningham CE, Toosi BM, McEwen E, Yizhak K, Vizeacoumar FS, Parameswaran S, Gonen N, Freywald A, Vizeacoumar FJ, Ruppin E*",
+        "https://www.ncbi.nlm.nih.gov/pubmed/29196508"
       ],
       [
         "Co-targeting the tumor endothelium and P-selectin-expressing glioblastoma cells leads to a remarkable therapeutic outcome",
         "eLife",
-        "Ferber S et al.",
-        "https://www.auslanderlab.com/publications"
+        "Ferber S, Tiram G, Sousa-Herves A, Eldar-Boock A, Krivitsky A, Scomparin A, Yeini E, Ofek P, Ben-Shushan D, Vossen LI, Licha K, Grossman R, Ram Z, Henkin J, Ruppin E*, Auslander N, Haag R, Calderón M, Satchi-Fainaro R.",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5644959/"
       ],
       [
         "Chemoradiotherapy resistance in colorectal cancer cells is mediated by Wnt/\u03b2-catenin signaling",
         "Molecular Cancer Research",
-        "Emons G et al.",
-        "https://www.auslanderlab.com/publications"
+        "mons G, Spitzner M, Reineke S, Möller J, Auslander N, Kramer F, Beissbarth T, Wolff HA, Rave-Fränk M, Heßmann E, Gaedcke J, Ghadimi BM, Johnsen SA, Ried T, Grade M. ",
+        "https://www.ncbi.nlm.nih.gov/pubmed/28811361"
       ]
     ],
     "2016": [
       [
         "Data-driven metabolic pathway compositions enhance cancer survival prediction",
         "PLOS Computational Biology",
-        "Auslander N et al.",
-        "https://www.auslanderlab.com/publications"
+        "Auslander N#, Wagner A, Oberhardt M, Ruppin E*.",
+        "http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005125"
       ],
       [
         "A joint analysis of transcriptomic and metabolomic data uncovers enhanced enzyme-metabolite coupling in breast cancer",
         "Scientific Reports",
-        "Auslander N et al.",
-        "https://www.auslanderlab.com/publications"
+        "Auslander N#, Yizhak K#, Weinstock A#, Budhu A, Tang W, Wang XW, Ambs S, Ruppin E*.",
+        "http://www.nature.com/articles/srep29662"
       ]
     ]
   },
