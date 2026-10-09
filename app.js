@@ -229,8 +229,7 @@ const team = () => {
     },
     {
       name: "Anastasia Lucas",
-      position: "Bioinformatics Research Analyst (Postdoctoral Level)",
-      subtitle: "Formerly PhD Student",
+      position: "Bioinformatics Research Analyst (Postdoctoral Level), Formerly PhD Student",
       education: [
         "Ph.D. Genomics and Computational Biology, University of Pennsylvania, 2026",
         "B.S. Biostatistics, Pennsylvania State University, 2015"
@@ -243,8 +242,7 @@ const team = () => {
     },
     {
       name: "Julia Malnak",
-      position: "Graduate Student",
-      subtitle: "Genomics and Computational Biology",
+      position: "Graduate Student, Genomics and Computational Biology",
       bio: "I study structure-based approaches for comparing viruses and associating them with disease phenotypes. Outside the lab, I enjoy cooking, spending time with my cat Ember, reading Brandon Sanderson novels, and keeping up with The New York Times.",
       education: [
         "B.S. Computational Biology, University of Pittsburgh, 2023"
@@ -259,7 +257,7 @@ const team = () => {
     {
       name: "Bryant Duong",
       position: "Graduate Student",
-      subtitle: "Genomics & Computational Biology · Former Software Developer",
+      subtitle: "Genomics & Computational Biology, Former Software Developer",
       education: [
         "Master of Computer and Information Technology, University of Pennsylvania, 2024",
         "MBA, University of California, Davis, 2022",
