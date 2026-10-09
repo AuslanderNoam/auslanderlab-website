@@ -110,31 +110,31 @@ window.LAB_DATA = {
         "ERVmancer: a phylogeny-guided framework for decoding human endogenous retrovirus regulatory mechanisms in health and disease",
         "Genome Biology",
         "Patterson A, Duong B, Yoon L, Foster M, MacMullen L, Wickramasinghe J, Lucas A, Srivastava A, Jacobson S, Murphy ME, Soldan S, Lieberman PM, Auslander N",
-        "https://www.auslanderlab.com/publications"
+        "https://link.springer.com/article/10.1186/s13059-026-04287-5"
       ],
       [
         "Melanoma-patient-derived xenograft multi-omics resource melPDomiX maps gain- and loss-of-function alterations",
         "Cell Reports",
-        "Tsingas K et al.; Auslander N, Herlyn M",
-        "https://www.auslanderlab.com/publications"
+        "Tsingas K, Thomas M, Reale M, Xiao M, Wickramasinghe J, Chen Y, Duong B, Lucas A, Thacker G, Li H, Mou H, Ramirez-Salazar E, Elbasir A, Villanueva J, Xu X, Flowers A, Karakousis GC, Miura JT, Mitchell TC, Amaravadi RK, Schuchter LM, Liu S, Long Q, Hoon DSB, Ramos RI, Catbagan JJ, Bustos MA, Gershenwald JE, Simon JM, Wargo JA, Davies MA, Lu Y, Mills GB, Cohen S, Lawless A, Sharova T, Frederick DT, Flaherty KT, Hacohen N, Boland GM, Auslander N*, Herlyn M*.",
+        "https://pubmed.ncbi.nlm.nih.gov/42234561/"
       ],
       [
         "Uncovering viral protein acquisition events and human-specific folds with pairwise comparisons of predicted protein structures",
         "Molecular Biology and Evolution",
         "Malnak JC, Montermoso S, Bushman FD, Auslander N",
-        "https://www.auslanderlab.com/publications"
+        "https://pubmed.ncbi.nlm.nih.gov/42041085/"
       ],
       [
         "Clonal dynamics shaped by diverse drug-tolerant persister states in melanoma resistance",
         "Molecular Cancer",
-        "Li H et al.",
+        "Li H, Chen Y, Kaster J, Dunne M, Xiao M, Li L, Thomas M, Promi N, Fingerman D, Brown GS, Zheng Q, Zhu X, Reale M, Patterson A, Gao L, Zhang X, Jiang S, Hu T, Fang H, Ren J, Qi C, Wang L, Mou H, Thacker G, Ramirez Salazar E, Villanueva J, Raj A, Hoon DSB, Bin T, Madzo J, Wei Z, Auslander N, Herlyn M.",
         "https://www.auslanderlab.com/publications"
       ],
       [
         "Mutant p53 binds and controls estrogen receptor activity to drive endocrine resistance in ovarian cancer",
         "Genes & Development",
-        "Shao C et al.",
-        "https://www.auslanderlab.com/publications"
+        "C Shao, A Indeglia, M Foster, K Casey, J Leung, SR Modarai, JI Leu, B Duong, AM Mes-Masson, J Sims-Mourtada, N Auslander, R Drapkin, BG Bitler, N Zhang, ME Murphy.",
+        "https://pubmed.ncbi.nlm.nih.gov/41193244/"
       ]
     ],
     "2025": [
@@ -147,22 +147,22 @@ window.LAB_DATA = {
       [
         "Targeting LxCxE cleft pocket of retinoblastoma protein in immunosuppressive macrophages inhibits ovarian cancer progression",
         "Cancer Immunology Research",
-        "Tcyganov E et al.",
-        "https://www.auslanderlab.com/publications"
+        "cyganov E, Kwak T, Yang X, Poli ANR, Hart C, Bhuniya A, Cassel J, Kossenkov A, Auslander N, Lu L, Sharma P, Mendoza M, Zhigarev D, Cramer G, Cadungog M, Jean S, Chatterjee-Paer S, Weiner D, Donthireddy L, Bristow B, Zhang R, Tyurin V, Tyurina Y, Bayir H, Kagan V, Salvino J, Montaner L.",
+        "https://pubmed.ncbi.nlm.nih.gov/40923906/"
       ]
     ],
     "2024": [
       [
         "Parkin activates innate immunity and promotes anti-tumor immune responses",
         "Journal of Clinical Investigation",
-        "Perego M et al.",
-        "https://www.auslanderlab.com/publications"
+        "Perego M, Yeon M, Agarwal E, Milcarek AT, Bertolini I, Camisaschi C, Ghosh JC, Tang HY, Grandvaux N, Ruscetti M, Kossenkov AV, Preston-Alp S, Tempera I, Auslander N, Altieri DC. ",
+        "https://pubmed.ncbi.nlm.nih.gov/39213189/"
       ],
       [
         "Multiple sclerosis patient derived spontaneous B cells have distinct EBV and host gene expression profiles in active disease",
         "Nature Microbiology",
-        "Soldan SS et al.",
-        "https://www.auslanderlab.com/publications"
+        "Samantha S. Soldan, Chenhe Su, Maria Chiara Monaco, Leena Yoon, Toshitha Kannan, Urvi Zankharia, Rishi J. Patel, Jayaraju Dheekollu, Olga Vladimirova, Jack W. Dowling, Simon Thebault, Natalie Brown, Annaliese Clauze, Frances Andrada, Andries Feder, Paul J. Planet, Andrew Kossenkov, Daniel E. Schäffer, Joan Ohayon, Noam Auslander, Steven Jacobson, Paul M. Lieberman.",
+        "https://pubmed.ncbi.nlm.nih.gov/38806670/"
       ]
     ],
     "2023": [
@@ -175,20 +175,20 @@ window.LAB_DATA = {
       [
         "A deep learning approach reveals unexplored landscape of viral expression in cancer",
         "Nature Communications",
-        "Elbasir A et al.",
-        "https://www.auslanderlab.com/publications"
+        "Elbasir A, Ye Y, Schäffer DE, Hao X, Wickramasinghe J, Tsingas K, Lieberman PM, Long Q, Morris Q, Zhang R, Schäffer AA, Auslander N.",
+        "https://pubmed.ncbi.nlm.nih.gov/36774364/"
       ],
       [
         "Computational Methods Summarizing Mutational Patterns in Cancer: Promise and Limitations for Clinical Applications",
         "Cancers",
         "Patterson A, Elbasir A, Tian B, Auslander N",
-        "https://www.auslanderlab.com/publications"
+        "https://pubmed.ncbi.nlm.nih.gov/37046619/"
       ],
       [
         "An African-specific variant of TP53 reveals PADI4 as a regulator of p53-mediated tumor suppression",
         "Cancer Discovery",
-        "Indeglia A et al.",
-        "https://www.auslanderlab.com/publications"
+        "Alexandra Indeglia, Jessica C Leung, Sven A Miller, Julia I-Ju Leu, James F Dougherty, Nicole L Clarke, Nicole A Kirven, Chunlei Shao, Lei Ke, Scott Lovell, Thibaut Barnoud, David Y Lu, Cindy Lin, Toshitha Kannan, Kevin P Battaile, Tyler Hong Loong Yang, Isabela Batista Oliva, Daniel T Claiborne, Peter Vogel, Lijun Liu, Qin Liu, Yulia Nefedova, Joel Cassel, Noam Auslander, Andrew V Kossenkov, John Karanicolas, Maureen E Murphy.",
+        "https://pubmed.ncbi.nlm.nih.gov/37140445/"
       ]
     ],
     "2022": [
@@ -196,19 +196,19 @@ window.LAB_DATA = {
         "Mutated Processes Predict Immune Checkpoint Inhibitor Therapy Benefit in Metastatic Melanoma",
         "Nature Communications",
         "Patterson A, Auslander N",
-        "https://www.auslanderlab.com/publications"
+        "https://pubmed.ncbi.nlm.nih.gov/36123351/"
       ],
       [
         "A microbiome-produced metabolite drives immunostimulatory macrophages and boosts response to immune checkpoint inhibitors in pancreatic cancer",
         "Science Immunology",
-        "Mirji G et al.",
+        "Mirji G, Worth A, Ahmad Bhat S, El Sayed M, Kim Reiser S, Kannan T, Goldman AR, Tang H, Damra M, Liu Q, Auslander N, Dang CV, Abdel-Mohsen M, Kossenkov A, Stanger BZ, Shinde RS. ",
         "https://www.auslanderlab.com/publications"
       ],
       [
         "Gene expression profiles of pretreatment biopsies predict complete response of rectal cancer patients to preoperative chemoradiotherapy",
         "British Journal of Cancer",
-        "Emons G et al.",
-        "https://www.auslanderlab.com/publications"
+        "Emons G*, Auslander N*, Jo P, Kitz J*, Azizian A, Hu Y, Hess FC, Roedel C, Sax U, Salinas-Riester G, Stroebel P, Kramer F, Beissbarth T, Grade M, Ghadimi M, Ruppin R, Gaedcke J, Ried T. ",
+        "https://www.nature.com/articles/s41416-022-01842-2"
       ]
     ],
     "2021": [
@@ -216,97 +216,97 @@ window.LAB_DATA = {
         "Identification of combinations of somatic mutations that predict cancer survival and immunotherapy benefit",
         "NAR Cancer",
         "Gussow AB, Koonin EV, Auslander N",
-        "https://www.auslanderlab.com/publications"
+        "https://academic.oup.com/narcancer/article/3/2/zcab017/6276974#.YKK3bOpzCZY.twitter"
       ],
       [
         "Hard-wiring of normal tissue-specific chromosome-wide gene expression levels is an additional factor driving cancer-type-specific aneuploidies",
         "Genome Medicine",
-        "Patkar S et al.",
-        "https://www.auslanderlab.com/publications"
+        "Patkar S*, Heselmeyer-Haddad K*, Auslander N*, Hirsch D, Camps J, Bronder D, Brown M, Chen WD, Lokanga R, Wangsa D, Wangsa D, Hu Y, Lischka A, Braun R, Emons G, Ghadimi BM, Gaedcke J, Grade M, Montagna C, Lazebnik Y, Difilippantonio MJ, Habermann J, Auer G, Ruppin E*, Ried T",
+        "https://link.springer.com/article/10.1186/s13073-021-00905-y"
       ],
       [
         "Incorporating machine learning into established bioinformatics frameworks",
         "International Journal of Molecular Sciences",
         "Auslander N, Gussow AB, Koonin EV",
-        "https://www.auslanderlab.com/publications"
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8000113/"
       ]
     ],
     "2020": [
       [
         "The GENDULF algorithm: mining transcriptomics to uncover modifier genes for monogenic diseases",
         "Molecular Systems Biology",
-        "Auslander M et al.",
-        "https://www.auslanderlab.com/publications"
+        "Auslander M#, Ramos DM#, Zelaya I, Karathia H, Crawford TO, Schäffer AA, Sumner CJ, Ruppin E*.",
+        "https://www.embopress.org/doi/full/10.15252/msb.20209701"
       ],
       [
         "Prediction of the incubation period for COVID-19 and future virus disease outbreaks",
         "BMC Biology",
-        "Gussow AB et al.",
-        "https://www.auslanderlab.com/publications"
+        "Gussow AB#, Auslander N#, Wolf YI, Koonin EV*. ",
+        "https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-020-00919-9"
       ],
       [
         "Seeker: Alignment-free identification of bacteriophage genomes by deep learning",
         "Nucleic Acids Research",
-        "Auslander N et al.",
-        "https://www.auslanderlab.com/publications"
+        "Auslander N*, Gussow AB*, Benler S, Wolf YI, Koonin EV*.",
+        "https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkaa856/5921300"
       ],
       [
         "Pyrvinium pamoate induces death of triple-negative breast cancer stem-like cells and reduces metastases through effects on lipid anabolism",
         "Cancer Research",
-        "Dattilo R et al.",
-        "https://www.auslanderlab.com/publications"
+        "Dattilo R, Mottini C, Camera E, Lamolinara A, Auslander N, Doglioni G, Muscolini M, Tang W, Planque M, Ercolani C, Buglioni S, Manni I, Trisciuoglio D, Boe A, Grande S, Luciani AM, Iezzi M, Ciliberto G, Ambs S, De Maria R, Fendt S-M, Ruppin E*, Cardone L. ",
+        "https://cancerres.aacrjournals.org/content/early/2020/07/23/0008-5472.CAN-19-1184"
       ],
       [
         "Genomic determinants of pathogenicity in SARS-CoV-2 and other human coronaviruses",
         "PNAS",
-        "Gussow AB et al.",
-        "https://www.auslanderlab.com/publications"
+        "Gussow AB#, Auslander N#, Faure G, Wolf YI, Zhang F, Koonin EV*",
+        "https://www.pnas.org/content/117/26/15193"
       ],
       [
         "Single-cell-derived primary rectal carcinoma cell lines reflect intratumor heterogeneity associated with treatment response",
         "Clinical Cancer Research",
-        "Braun R et al.",
-        "https://www.auslanderlab.com/publications"
+        "Braun R, Anthuber L, Hirsch D, Wangsa D, Lack J, McNeil NE, Heselmeyer-Haddad K, Torres I, Wangsa D, Brown M, Tubbs A, Auslander N, Gertz EM, Brauer PR, Cam MC, Sackett DL, Habermann JK, Nussenzweig A, Ruppin E*, Zhang Z, Rosenberg DW, Ried T.",
+        "https://clincancerres.aacrjournals.org/content/early/2020/04/04/1078-0432.CCR-19-1984"
       ],
       [
         "Interplay between DNA damage repair and apoptosis shapes cancer evolution through aneuploidy and microsatellite instability",
         "Nature Communications",
-        "Auslander N et al.",
-        "https://www.auslanderlab.com/publications"
+        "Auslander N#, Wolf YI, Koonin EV*.",
+        "https://www.nature.com/articles/s41467-020-15094-2"
       ]
     ],
     "2019": [
       [
         "Functional genomic complexity defines intratumor heterogeneity and tumor aggressiveness in liver cancer",
         "Scientific Reports",
-        "Kwon SM et al.",
-        "https://www.auslanderlab.com/publications"
+        "Kwon SM, Budhu A, Woo HG, Chaisaingmongkol J, Dang H, Forgues M, Harris CC, Zhang G, Auslander N, Ruppin E*, Mahidol C, Ruchirawat M, Wang XW.",
+        "https://www.nature.com/articles/s41598-019-52578-8"
       ],
       [
         "A unique insert in the genomes of high-risk human papillomaviruses with a predicted dual role in conferring oncogenic risk",
         "F1000Research",
-        "Auslander N et al.",
-        "https://www.auslanderlab.com/publications"
+        "Auslander N#, Wolf YI,Shabalina SA, Koonin EV*. ",
+        "https://f1000research.com/articles/8-1000"
       ],
       [
         "In silico learning of tumor evolution through mutational time series",
         "PNAS",
-        "Auslander N et al.",
-        "https://www.auslanderlab.com/publications"
+        "Auslander N, Wolf YI, Koonin EV*. ",
+        "https://www.pnas.org/content/116/19/9501.short"
       ],
       [
         "Predicting complete remission of acute myeloid leukemia: Machine learning applied to gene expression",
         "Cancer Informatics",
-        "Gal O et al.",
-        "https://www.auslanderlab.com/publications"
+        "Gal O, Auslander N, Fan Y, Meerzaman D.",
+        "https://journals.sagepub.com/doi/full/10.1177/1176935119835544"
       ]
     ],
     "2018": [
       [
         "Robust prediction of therapeutic response to immune checkpoint blockade therapy in metastatic melanoma",
         "Nature Medicine",
-        "Auslander N et al.",
-        "https://www.auslanderlab.com/publications"
+        "Auslander N, Zhang G, Lee JS, Frederick DT, Miao B, Moll T, Tian T, Wei Z, Sullivan RJ, Madan S, Boland G, Flaherty K, Herlyn M, Ruppin E*",
+        "https://www.ncbi.nlm.nih.gov/pubmed/30127394"
       ],
       [
         "Urea cycle dysregulation in cancer results in a pyrimidine rich mutation bias associated with enhanced response to immune checkpoint therapies",
