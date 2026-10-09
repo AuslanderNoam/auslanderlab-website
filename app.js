@@ -211,7 +211,8 @@ const team = () => {
   const current = [
     {
       name: "Noam Auslander",
-      position: "Principal Investigator",
+      position: "PHD",
+      subtitle"Principal Investigator",
       bio: "Earned a B.S. in Computer Science and Biology from Tel Aviv University, a Ph.D. in Computer Science from the University of Maryland with an NCI fellowship, completed postdoctoral training in Evolutionary Genomics Research at NCBI, and joined The Wistar Institute as an Assistant Professor in 2021.",
       education: [
         "Ph.D. Computer Science, University of Maryland, 2018",
@@ -229,7 +230,8 @@ const team = () => {
     },
     {
       name: "Anastasia Lucas",
-      position: "Bioinformatics Research Analyst (Postdoctoral Level), Formerly PhD Student",
+      position: "PHD",
+      subtitle: "Bioinformatics Research Analyst (Postdoctoral Level), Formerly PhD Student",
       education: [
         "Ph.D. Genomics and Computational Biology, University of Pennsylvania, 2026",
         "B.S. Biostatistics, Pennsylvania State University, 2015"
@@ -242,7 +244,8 @@ const team = () => {
     },
     {
       name: "Julia Malnak",
-      position: "Graduate Student, Genomics and Computational Biology",
+      position: "BS",
+      subtitle: "Graduate Student, Genomics and Computational Biology",
       bio: "I study structure-based approaches for comparing viruses and associating them with disease phenotypes. Outside the lab, I enjoy cooking, spending time with my cat Ember, reading Brandon Sanderson novels, and keeping up with The New York Times.",
       education: [
         "B.S. Computational Biology, University of Pittsburgh, 2023"
@@ -256,8 +259,8 @@ const team = () => {
     },
     {
       name: "Bryant Duong",
-      position: "Graduate Student",
-      subtitle: "Genomics & Computational Biology, Former Software Developer",
+      position: "MS, MBA",
+      subtitle: "Graduate Student, Genomics & Computational Biology, Former Software Developer",
       education: [
         "Master of Computer and Information Technology, University of Pennsylvania, 2024",
         "MBA, University of California, Davis, 2022",
@@ -266,7 +269,9 @@ const team = () => {
     },
     {
       name: "Pearl Zhou",
-      position: "Lab Technician (Programmer)"
+      position: "BS",
+      subtitle: "Lab Technician (Programmer)",
+
     }
   ];
 
