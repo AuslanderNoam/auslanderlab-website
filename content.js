@@ -366,19 +366,19 @@ window.LAB_DATA = {
     [
       "kMermaid",
       "Ultrafast metagenomic read assignment to protein clusters using amino-acid k-mer frequency hashing.",
-      "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013470",
+      "https://github.com/AuslanderLab/kmermaid",
       "Functional metagenomics"
     ],
     [
       "viRNAtrap",
       "Deep-learning identification of viral sequences in RNA sequencing data.",
-      "https://www.auslanderlab.com/publications",
+      "https://github.com/AuslanderLab/virnatrap",
       "Viral discovery"
     ],
     [
       "Seeker",
       "Alignment-free bacteriophage genome identification using deep learning.",
-      "https://www.auslanderlab.com/publications",
+      "https://github.com/gussow/seeker",
       "Phage identification"
     ]
   ]
