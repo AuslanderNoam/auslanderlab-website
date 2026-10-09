@@ -106,9 +106,9 @@ ${ticker()}
   <div class="intro">
     <div>
       ${label('WHAT WE STUDY')}
-      <h2>At the intersection of <em>biology and computation.</em></h2>
+      <h2>Active<em>research programs.</em></h2>
     </div>
-    <p>From microbial sequences to cancer treatment response, we create interpretable computational tools to uncover biological signals hidden in complex data.</p>
+    <p>From microbial sequences to the functional effects of cancer mutations and treatment responses, we develop interpretable computational methods to uncover biological signals hidden in complex data.</p>
   </div>
   <div class="research-grid">${researchCards(D.research)}</div>
   <div class="section-action">
