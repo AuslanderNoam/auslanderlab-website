@@ -419,7 +419,7 @@ const team = () => {
   `;
 };
 
-const news=()=>`<section class="shell section inner">${section('Lab news','Publications, awards, conference presentations, funding, and milestones from our research community.')}<div class="news-controls"><button class="chip active" data-news="All">All updates</button>${['Publication','Grant','Conference','Lab milestone','Training','Award'].map(x=>`<button class="chip" data-news="${x}">${x}</button>`).join('')}</div><div id="news-results" class="news-list">${newsCards(D.news)}</div></section>`;
+const news=()=>`<section class="shell section inner">${section('Lab news','Publications, awards, conference presentations, funding, and milestones from our lab.')}<div class="news-controls"><button class="chip active" data-news="All">All updates</button>${['Publication','Grant','Conference','Lab milestone','Training','Award'].map(x=>`<button class="chip" data-news="${x}">${x}</button>`).join('')}</div><div id="news-results" class="news-list">${newsCards(D.news)}</div></section>`;
 
 const pages={home,research,publications:pubs,software,team,news};
 
