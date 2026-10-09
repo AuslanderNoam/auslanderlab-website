@@ -30,7 +30,14 @@ window.LAB_DATA = {
     ]
   ],
   "news": [
-  
+    [
+      "Oct 2026",
+      "Grant",
+      "Developmental Research Program award",
+      "Our project \u201cEvolutionary separation of germline and somatic cancer mutations for personalized ovarian tumor risk scoring,\u201d led by Anastasia with contributions from nearly the entire lab, was selected for funding.",
+      "\ud83c\udfc6",
+      ""
+    ],
     [
       "Sep 2026",
       "Publication",
@@ -61,14 +68,6 @@ window.LAB_DATA = {
       "Andrew successfully defends his PhD dissertation",
       "Congratulations to Andrew on successfully defending his PhD dissertation!",
       "\ud83c\udf93",
-      ""
-    ],
-    [
-      "Oct 2025",
-      "Grant",
-      "Developmental Research Program award",
-      "Our project \u201cEvolutionary separation of germline and somatic cancer mutations for personalized ovarian tumor risk scoring,\u201d led by Anastasia with contributions from nearly the entire lab, was selected for funding.",
-      "\ud83c\udfc6",
       ""
     ],
     [
