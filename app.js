@@ -127,13 +127,18 @@ ${ticker()}
   </div>
 </section>
 
-<section class="closing" style="padding:24px 0;">
+<section class="closing" style="padding:20px 0;">
   <div class="shell">
     <div style="text-align:center;">
       ${label('OUR SUPPORT')}
-      <h2 style="font-size:1.3rem;line-height:1.4;margin:8px 0 0;">
+      <h2 style="font-size:1rem;line-height:1.4;font-weight:400;margin:8px 0 16px;">
         Our work has been made possible by the generous support of:
       </h2>
+      <img
+        src="support.png"
+        alt="Organizations supporting our research"
+        style="width:100%;height:auto;display:block;object-fit:contain;"
+      >
     </div>
   </div>
 </section>`;
