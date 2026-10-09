@@ -34,3 +34,11 @@ body {
   line-height: 1.5;
   letter-spacing: -0.02em;
 }
+
+.research-card > img {
+  width: 100% !important;
+  height: 260px !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  background: white !important;
+}
