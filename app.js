@@ -2,6 +2,9 @@
 const D=window.LAB_DATA, main=document.getElementById('main');
 
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const pubmedLink = (title) =>
+  'https://pubmed.ncbi.nlm.nih.gov/?term=' +
+  encodeURIComponent('"' + title + '"[Title]');
 
 const a=(url,text,cls='')=>`<a class="${cls}" href="${esc(url)}" ${url.startsWith('http')?'target="_blank" rel="noopener noreferrer"':''}>${text}</a>`;
 
@@ -77,7 +80,7 @@ const orderedPubs=(papers)=>[...papers].sort((a,b)=>{
   return (Number.isNaN(db)?0:db)-(Number.isNaN(da)?0:da);
 });
 
-const pubList=(years)=>years.map(y=>`<section class="pub-year"><h2>${y}<span>${D.publications[y].length} papers</span></h2><div>${orderedPubs(D.publications[y]).map(p=>`<article class="pub"><span class="journal">${esc(p[1])}</span><h3>${a(p[3],esc(p[0]))}</h3><p>${esc(p[2])}</p></article>`).join('')}</div></section>`).join('');
+const pubList=(years)=>years.map(y=>`<section class="pub-year"><h2>${y}<span>${D.publications[y].length} papers</span></h2><div>${orderedPubs(D.publications[y]).map(p=>`<article class="pub"><span class="journal">${esc(p[1])}</span><h3>${a(pubmedLink(p[0]),esc(p[0]))}</h3><p>${esc(p[2])}</p></article>`).join('')}</div></section>`).join('');
 
 const home=()=>`
 <section class="hero">
@@ -125,7 +128,7 @@ ${ticker()}
       ${a('#publications','View all publications ↗','text-link')}
     </div>
     <div class="feature-pubs">
-      ${orderedPubs(D.publications[publicationYears()[0]]).slice(0,3).map((p,i)=>`<article><span class="feature-number">0${i+1}</span><div><span class="journal">${esc(p[1])} · ${publicationYears()[0]}</span><h3>${a(p[3],esc(p[0]))}</h3></div><span class="feature-arrow">↗</span></article>`).join('')}
+      ${orderedPubs(D.publications[publicationYears()[0]]).slice(0,3).map((p,i)=>`<article><span class="feature-number">0${i+1}</span><div><span class="journal">${esc(p[1])} · ${publicationYears()[0]}</span><h3>${a(pubmedLink(p[0]),esc(p[0]))}</h3></div><span class="feature-arrow">↗</span></article>`).join('')}
     </div>
   </div>
 </section>
@@ -438,7 +441,7 @@ function setupPubs(){
     let q=input.value.toLowerCase().trim(),filtered=all.filter(({p,y})=>(y+' '+p.join(' ')).toLowerCase().includes(q));
     count.textContent=filtered.length+' publications';
     let years=[...new Set(filtered.map(x=>x.y))].sort((a,b)=>Number(b)-Number(a));
-    document.getElementById('pub-results').innerHTML=years.map(y=>`<section class="pub-year"><h2>${y}</h2><div>${filtered.filter(x=>x.y===y).map(({p})=>`<article class="pub"><span class="journal">${esc(p[1])}</span><h3>${a(p[3],esc(p[0]))}</h3><p>${esc(p[2])}</p></article>`).join('')}</div></section>`).join('')||'<p>No matching publications.</p>';
+    document.getElementById('pub-results').innerHTML=years.map(y=>`<section class="pub-year"><h2>${y}</h2><div>${filtered.filter(x=>x.y===y).map(({p})=>`<article class="pub"><span class="journal">${esc(p[1])}</span><h3>${a(pubmedLink(p[0]),esc(p[0]))}</h3><p>${esc(p[2])}</p></article>`).join('')}</div></section>`).join('')||'<p>No matching publications.</p>';
   };
   input.addEventListener('input',update);
   update();
