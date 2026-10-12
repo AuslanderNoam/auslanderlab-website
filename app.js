@@ -261,7 +261,7 @@ const team = () => {
       position: "MS, MBA",
       subtitle: "Graduate Student, Genomics & Computational Biology; Formerly Software Developer",
       education: [
-        "Master's of Computer and Information Technology, University of Pennsylvania, 2024",
+        "Master's in Computer and Information Technology, University of Pennsylvania, 2024",
         "MBA, University of California, Davis, 2022",
         "B.A. Cognitive Science, University of California, Berkeley, 2018"
       ],
