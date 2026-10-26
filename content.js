@@ -122,6 +122,12 @@ window.LAB_DATA = {
   "publications": {
     "2026": [
       [
+        "Ten simple rules for responsible use of AI and LLMs in computational biology",
+        "PLOS Computational Biology",
+        "Auslander N",
+        "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014882"
+      ],
+      [
         "ERVmancer: a phylogeny-guided framework for decoding human endogenous retrovirus regulatory mechanisms in health and disease",
         "Genome Biology",
         "Patterson A, Duong B, Yoon L, Foster M, MacMullen L, Wickramasinghe J, Lucas A, Srivastava A, Jacobson S, Murphy ME, Soldan S, Lieberman PM, Auslander N",
